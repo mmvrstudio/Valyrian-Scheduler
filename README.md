@@ -6,10 +6,11 @@
     The user is able to enter and save tasks in those time blocks.  
     Each hour is color-coded for past, current and future events.
     
-# Tools:
+# Tools/ Languages / Libraries Used:
     - HTML
     - CSS
-    -  Moment.js
+    - Bootstrap
+    - Moment.js
     
     
     
