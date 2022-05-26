@@ -1,0 +1,120 @@
+body {
+  font-family: 'sans-serif';
+  font-style: oblique;
+  font-size: 20px;
+  padding-left: 10px;
+  color: #ffffff;
+  line-height: 1;
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/015/660/170/large/max-riess-thegate-final-2k.jpg?1549145371');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 80px;
+
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #ffffff;
+  position: 1px transparent;
+  padding: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-position: center;
+  color: #516859;
+  border-radius: 0;
+  border-bottom: 0px solid #ffffff;
+}
+
+.hdr-bckgrnd {
+  width: 80%;
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 10%;
+}
+
+h1 {
+  font-family: 'times';
+}
+
+#currentDay {
+  font-size: 24px;
+  font-family: 'times';
+  color: #ffffff;
+}
+
+.container-fluid {
+  margin-bottom: 100px;
+  color: #ffffff;
+}
+
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 2px solid #d1e9d4;
+  border-bottom: 2px solid #d1e9d4;
+  border-left: 2px solid #d1e9d4;
+}
+
+.hour {
+  background-color: #4a6a66;
+  color: #ffffff;
+  border-radius: 5%;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.past {
+  background-color: #295038;
+  color: #815E5B;
+}
+
+.present {
+  background-color: #df6117;
+  color: #ffffff;
+}
+
+.future {
+  background-color: #36597b;
+  color: #ffffff;
+}
+
+.saveBtn {
+  border-left: 2px solid #f2f2f2;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 10px;
+  background-color: #a6b0aa;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 972px) {
+ img {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 608px) {
+  .hour {
+    font-size: small;
+  }
+
+  h1 {
+    font-size: 100px !important;
+    color: white;
+  }
+ }
